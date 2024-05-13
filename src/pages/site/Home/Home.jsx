@@ -29,12 +29,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-5">
+      <div className="container mt-5 cards">
         <div className="row">
           <h2>New realeased Products for Women</h2>
           <p>Who are in extremely love with eco friendly system.</p>
           {data.map((item) => (
-            <div className="col-3" key={item.id}>
+            <div className="col-3 card" key={item.id}>
               <div className="card mb-5">
                 <img
                   src={item.image}
@@ -46,9 +46,6 @@ const Home = () => {
                 <div className="card-body">
                   <h5 className="card-title">{item.name}</h5>
                   <p className="card-text">{item.price}</p>
-                  <Link to="/about" className="btn btn-primary">
-                    Go Detail
-                  </Link>
                 </div>
               </div>
             </div>

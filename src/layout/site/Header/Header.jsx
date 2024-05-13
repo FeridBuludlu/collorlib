@@ -15,6 +15,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="first_header_right">
+          <Link to="/admin/product"><i class="fa-solid fa-basket-shopping"></i></Link>
           <button>LOGIN</button>
         </div>
       </div>

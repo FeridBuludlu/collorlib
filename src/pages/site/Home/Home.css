@@ -1,55 +1,91 @@
 .main_Div {
-    background-image: -webkit-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
-    width: 100%;
-    height: 100vh;
-    position: relative;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #f6463d 0%,
+    #f6398d 45%,
+    #f52cdc 100%
+  );
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
 .first_section {
-    .text {
-        position: absolute;
-        top: 300px;
-        right: 300px;
+  .text {
+    position: absolute;
+    top: 150px;
+    right: 170px;
+  }
+
+  .image {
+    position: absolute;
+    top: 185px;
+    left: 10px;
+    img {
+      width: 800px;
     }
+  }
 
-    .image {
-        position: absolute;
-        top: 330px;
-        left: 10px;
-    }
+  p {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
 
-    p {
-        color: white;
-        font-size: 48px;
-        font-weight: 400;
-        font-family: "Poppins", sans-serif;
+  h2 {
+    color: White;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
 
-    }
+  button {
+    border-radius: 20px;
+    padding: 10px 35px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
 
-    h2 {
-        color: White;
-        font-size: 72px;
-        font-weight: 700;
-        font-family: "Poppins", sans-serif;
-
-    }
-
-    button {
-        border-radius: 20px;
-        padding: 10px 35px;
-        border: 1px solid transparent;
-        -webkit-transition: all 0.3s ease 0s;
-        -moz-transition: all 0.3s ease 0s;
-        -o-transition: all 0.3s ease 0s;
-        transition: all 0.3s ease 0s;
-        color: black;
-        font-weight: 600;
-        font-family: "Poppins", sans-serif;
-    }
-
-    button:hover {
-        color: white;
-        background-color: #f41068;
-    }
+  button:hover {
+    color: white;
+    background-color: #f41068;
+  }
 }
 
+.cards {
+  text-align: center;
+  .card{
+    border: none;
+    margin: 20px 0px;
+  }
+  h2 {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+  }
+  p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+}
+
+.card-body {
+  p {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+  }
+}

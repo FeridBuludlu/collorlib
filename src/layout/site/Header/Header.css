@@ -31,7 +31,33 @@
 .first_header_left .Link1:hover {
     background-color: #f41068;;
 }
+.first_header_right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 
+    i{
+        border: 1px solid #f41068;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        border-color: black;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        border: none;
+    }
+    i:hover{
+        background-color: #f41068;
+        color: white;
+    }
+
+}
 .first_header_right button {
     padding: 20px;
     background-color: white;
